@@ -1,0 +1,104 @@
+footer{background-color: rgb(16, 194, 25);position:fixed; bottom:0; right:20}
+body {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header {
+    height: 50px;
+    width: 100%;
+    min-height: 36px;
+    bottom: 833px;
+    top:0;
+    height: 200px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    border-bottom: 1px solid #ffffff;
+    background: rgb(216, 240, 214);
+}
+header img{
+    max-width: 100%;
+    height: 100%;
+}
+.logo{
+    height: 200px;;
+    align-self:flex-end;
+}
+nav{
+    display:flex;
+    font-size:100px;
+}
+aside {
+    position: fixed;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    border-right: 1px solid #e4e6e9;
+    background-color: #fff;
+}
+aside img{
+    height: 100%;
+    width: 100%
+}
+
+main {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    bottom: 0;
+    left: 501px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+.box {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+    transition: 0.3s;
+
+  }
+  
+  /* Add some padding inside the card container */
+  .div {
+    padding: 2px 16px;
+  }
+.bigbox{
+    height: 50%;
+    width: 300%;
+    display: flex;
+
+  }
+  .bigbox img{
+    width: 18rem;
+    height: 100%;
+    width: 100%
+
+  }
+  .slider{
+      height: 700;
+      ;
+  }
+  .slider:hover{
+    animation:  8s aa infinite
+
+  }
+    
+  @keyframes aa {
+      0%{ }
+      25%{transform:translateX(-300px) ;}
+      50%{transform:translateX(-600px) }
+      75%{transform:translateX(-900px) }
+      
+  }
+ 
